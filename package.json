@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cy:open" : "npx cypress open",
+    "cy:run" : " npx cypress run",
+    "cy:dashboard": "npm run cy:run --record --key 46012db4-0577-4c34-8ce0-44e21ca7d632"
   },
   "repository": {
     "type": "git",
